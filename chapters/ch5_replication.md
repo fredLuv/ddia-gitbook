@@ -92,7 +92,7 @@ This overlapping node acts as the "source of truth," returning the latest versio
 
 ```mermaid
 graph TD
-    subgraph Quorum Ring N=5
+    subgraph "Quorum Ring (N=5)"
     N1[Node 1: Written]
     N2[Node 2: Written]
     N3[Node 3: Overlapping Node - Written & Read]
